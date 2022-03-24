@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="carga.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="particles/css/part.css"></link>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <title>Personal Page Luis Moreno</title>
+
+</head>
+<body style="background-color: rgb(47 105 211 / 96%);">
+  <div id="container">
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <p class="parrafo">Cargando...</p>
+</div>
+<script>window.onload = function(){
+    var contenedor = document.getElementById('container');
+    
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+}
+    </script>
+<header class="container-fluid">
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Personal Page</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: black;">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: antiquewhite;">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color:whitesmoke;"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#introduccion">introduccion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">experiencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactos">contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+  </div>
+
+<div class=".container-fluid" style="background-image: url(img/background.jpg)">
+  <div class="slideshow-container">
+  <div class="slideshow-inner">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+    <div class="mySlides slide1">
+<div class="container-sm">
+        <div class="card-body" style="max-width: 160%; max-height: min-content;position:absolute; margin-left: -5%;">
+        <img src='img/HTML.png' class="img" style='width: 12rem;' alt="" style="left: 5px;"/>
+        <p class="card-text">Conocimiento de HTML 5:<br>Cuento con un conocimiento<br>avanzado sobre este lenguaje</p>
+        </div>
+      </div>
+        <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 37%;">
+        <img src='img/CSS.png' class="img" style='width: 12rem;' alt="" style="left: 10px;"/>
+          <p class="card-text">Conocimiento de CSS:<br>Cuento con un conocimiento<br> avanzado sobre este lenguaje</p>
+        </div>
+        <div class="card-body" style="max-width: min-content; max-height: min-content;position:absolute; margin-left: 65%;">
+          <img src='img/JS.png' class="img" style='width: 18rem; height: 12rem;' alt="10rem" style="left: 15px;"/>
+          <p class="card-text">Conocimiento de JavaScript:<br>Cuento con un conocimiento<br> intermedio sobre este lenguaje</p>
+        </div>
+        </div>
+  
+    <div class="mySlides slide2">
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 15%;">
+        <img src='img/PHP.jpg' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de PHP:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 60%;">
+        <img src='img/SQL.png' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de SQL:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+    </div>
+
+    <div class="mySlides slide3">
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 5%;">
+        <img src='img/ANGULAR.png' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Angular:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 35%;">
+        <img src='img/BOOTSTRAP.jpg' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Bootstrap:<br>Cuento con un conocimiento<br>intermedio sobre este lenguaje</p>
+      </div>
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 65%;">
+        <img src='img/LARAVEL.png' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Laravel:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+    </div>
+
+    <div class="mySlides slide4">
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 15%;">
+        <img src='img/GIT.png' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Git:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 60%;">
+        <img src='img/GITHUB.png' class="img" style='width: 16rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de GitHub:<br>Cuento con un conocimiento<br>basico sobre este lenguaje</p>
+      </div>
+    </div>
+
+    <div class="mySlides slide5">
+
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 15%;">
+        <img src='img/ILLUSTRATOR.png' class="img" style='width: 10rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Illustrator:<br>Cuento con un conocimiento<Br>basico sobre este lenguaje</p>
+      </div>
+      <div class="card-body" style="max-width: 160%;  max-height: min-content;  position:absolute; margin-left: 60%;">
+        <img src='img/PHOTOSHOP.png' class="img" style='width: 10rem; height: 10rem' alt=""/>
+        <p class="card-text">Conocimiento de Photoshop:<br>Cuento con un conocimiento<br>intermedio sobre este lenguaje</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+  <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+</div>
+  <div style='text-align: center;position: relative;'>
+    <span class="dot" onclick='currentSlide(1)'></span>
+    <span class="dot" onclick='currentSlide(2)'></span>
+    <span class="dot" onclick='currentSlide(3)'></span>
+    <span class="dot" onclick='currentSlide(4)'></span>
+    <span class="dot" onclick='currentSlide(5)'></span>
+  </div>
+</div>
+</div>
+</header>
+<br><br>
+  <div class="card-body" style="max-height: min-content; max-width: 35%;">
+
+    <h1>Luis David<br>Moreno Castillo</h1>
+    <hr>
+    <p class="card-text" style="color: black;">Programador de paginas y sistemas web</p>
+    <hr>
+    <h2>Contactos</h2>
+    <div id="contactos">
+      <i class="fas fa-phone-alt" style="font-size: 20px;">+58 424-571-5569</i><br><br>
+      <i class="fab fa-google" style="font-size: 20px;"> luisdavidcastillo0867@gmail.com</i><br><br>
+    <a href="https://www.facebook.com/luisdavid.castillo.58/"><i class="fab fa-facebook" style="font-size: 60px; color: darkblue;"></i></i></a> 
+    <a href="https://www.instagram.com/dvid_382/?hl=es-la"><i class="fab fa-instagram" style="font-size: 60px; color:#e41be7f5;  "></i></a>
+    </div>
+  </div>
+    </div>
+  <div class="row" style="position: absolute; margin-left: 35%; margin-top: -45%;" id="introduccion">
+  <div class="col-sm">
+    <div class="card">
+      <div class="card-body" style="background-color:#0cd3d3;">
+        <h2 class="card-title">Resumen sobre actitud y aptitud</h2>
+        <br>
+        <p class="card-text" style="color: black;">Hola mi nombre es Luis Moreno, soy programador freelancer, apacionado en el area de creacion de paginas web y diseño de paginas.<br</p>
+        <p class="card-text" style="color: black;">Ante todo, siempre comprometido con cumplir los objetivos de cada proyecto aportando ideas y soluciones de calidad.</p>
+        <p class="card-text" style="color: black;">Intento ademas mantenerme actualizado con las últimas tendencias tecnológicas de software ya que en esta área siempre hay algo nuevo que aprender.</p>
+        <p class="card-text" style="color: black;">Como se puede observar al inicio de la pagina se encuentran los diferentes lenguajes (Back-End, Front-End), frameworks y herramientas que e utilizado.</p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="row" style="position: relative;" id="exp">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body"style="background-color:#0cd3d3;" >
+          <h2 class="card-title">Experiencia</h2>
+          <p class="card-text" style="color: black;">Lo más relevante de mi experiencia y conocimientos</p>
+          <p class="card-text" style="color: black;">Mi principal experiencia Como programador fue en la creacion de un sistema de gestion de estudiantes<br>
+          en una escuela utilizando los lenguajes de programacion HTML, CSS, Javascrip, PHP y SQL esta a dia de hoy sigue estando operativa en un servidor privado.</p>
+          <p class="card-text" style="color: black;">Como programador FreeLancer e creado us sistema de Gestion de animales para mantener el control de distintos animales de granja<br>
+          utilizando frameworks como laravel para la parte del servidor y bootstrap para la interfas del usuario.</p>
+          <p class="card-text" style="color: black;">Para finalizar esta página fue diseñada y construida con herramientas Front-End como demostración de creatividad y calidad</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var slideIndex = 1;
+  var myTimer;
+  var slideshowContainer;
+  
+  window.addEventListener("load",function() {
+      showSlides(slideIndex);
+      myTimer = setInterval(function(){plusSlides(1)}, 4000);
+    
+      //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+      slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+    
+      slideshowContainer.addEventListener('mouseenter', pause)
+      slideshowContainer.addEventListener('mouseleave', resume)
+  })
+  
+  // NEXT AND PREVIOUS CONTROL
+  function plusSlides(n){
+    clearInterval(myTimer);
+    if (n < 0){
+      showSlides(slideIndex -= 1);
+    } else {
+     showSlides(slideIndex += 1); 
+    }
+    
+    //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+    
+    if (n === -1){
+      myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
+    } else {
+      myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+    }
+  }
+  
+  //Controls the current slide and resets interval if needed
+  function currentSlide(n){
+    clearInterval(myTimer);
+    myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n){
+    var current = 0;
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        // Cambiar z-index para enviar abajo
+        slides[i].style.zIndex = 1;
+        slides[i].style.opacity = 0;
+    }
+  
+    for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("active");
+    }
+    // Cambiar z-index para enviar arriba el activo
+    slides[slideIndex-1].style.zIndex = 2;
+    slides[slideIndex-1].style.opacity = "1";
+    dots[slideIndex-1].classList.add("active");
+  }
+  
+  pause = () => {
+    clearInterval(myTimer);
+  }
+  
+  resume = () =>{
+    clearInterval(myTimer);
+    myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
+  }
+    </script>
+    
+    <!-- scripts -->
+    <script src="particles/js/particles.js"></script>
+    <script src="particles/js/app.js"></script>
+</body>
+</html>
